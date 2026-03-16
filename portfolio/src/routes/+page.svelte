@@ -17,7 +17,7 @@
 				I love to build, ideate, and execute. Let's bring new ideas and visions to life together.
 			</p>
 			<p class="bio">In the tech industry since 2017.</p>
-			<small>Awxiety is my personal brand and a portmanteau of awkward society. It represents my traditionally introverted and awkward nature that I have personally strove to grow from a weakness into a strength, and despite being seemingly contradictory, wanting to build community and society with others through technology and other shared passions alike.</small>
+			<small>Awxiety is my personal brand and a portmanteau of awkward society. It represents my historically introverted and awkward nature that I have personally & successfully strove to grow from a weakness into a strength. And despite being contradictory, and opposing forces, I want to use my strengths to build a strong community through passions and technology that lead towards a more inclusive society and humanity as a whole.</small>
 		</div>
 		<div class="tech">
 			<span class="tech-tag">TypeScript | Javascript | Python | Django</span>
@@ -25,7 +25,10 @@
 			<span class="tech-tag">Tailwind | Bootstrap | Material UI | Prime</span>
 			<span class="tech-tag">PostgreSQL | MySQL | SQLite | MongoDB | GraphQL | Supabase</span>
 			<span class="tech-tag">Sendgrid | Sendinblue | Sendwithus | Resend | Twilio</span>
-			<span class="tech-tag">Vercel | Heroku | Jenkins | Heroku | Beanstalk | Github Actions</span>
+			<span class="tech-tag">Vercel | Beanstalk | Serverless | Github Actions | Heroku | Jenkins</span>
+			<span class="tech-tag">Linux | Ubuntu | MacOS | WSL2 | Gunicorn | Nginx</span>
+			<span class="tech-tag">Anthropic Claud | OpenAI | Gemini | Composer</span>
+			<span class="tech-tag">Azure | GCP | PyTorch | TensorFlow | Hugging Face | Chainlit | Langchain</span>
 			<span class="tech-tag">ElasticSearch</span>
 			<span class="tech-tag">S3</span>
 			<span class="tech-tag">Redis</span>
@@ -33,6 +36,7 @@
 			<span class="tech-tag">Docker</span>
 			<span class="tech-tag">AWS</span>
 			<span class="tech-tag">Stripe</span>
+			<span class="tech-tag">Cloudify</span>
 		</div>
 	</div>
 	<div class="hero-photo">

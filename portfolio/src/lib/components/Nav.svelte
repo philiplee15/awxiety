@@ -4,7 +4,10 @@
 </script>
 
 <nav class="nav">
-	<a href="/" class="nav-brand" class:active={$page.url.pathname === '/'}>Philip Lee</a>
+	<a href="/" class="nav-brand" class:active={$page.url.pathname === '/'}>
+		<img src="/awx-logo.png" alt="Philip Lee" class="nav-logo" />
+		<span>Philip Lee</span>
+	</a>
 	<div class="nav-links">
 		<a href="/#work" class="nav-link">Work</a>
 		<ThemeToggle />

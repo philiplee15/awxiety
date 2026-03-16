@@ -2,25 +2,23 @@ export interface Project {
 	slug: string;
 	title: string;
 	description: string;
-	context: string;
 	url: string;
 	tech: string[];
-	year: string;
+	icon?: string;
+	wordLogo?: string;
 }
 
 /** Add new projects here — each gets its own route at /projects/[slug] */
 export const projects: Project[] = [
 	{
-		slug: 'example-project',
-		title: 'Example Project',
-		description: 'A sample project to demonstrate the portfolio structure.',
-		context:
-			'Built as a proof of concept for modern web architecture. Features real-time updates and a clean API layer.',
-		url: 'https://example.com',
-		tech: ['Svelte', 'TypeScript', 'Node.js'],
-		year: '2024'
+		slug: 'vipixi',
+		title: 'Vipixi',
+		description: 'A collaborative pixelboard where a million pixels become a living, breathing work of art.',
+		url: 'https://vipixi.com',
+		tech: ['React', 'Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Vercel', 'Stripe', 'Cloudify', 'Github Actions', 'Resend'],
+		icon: '/projects/vipixi-icon.png',
+		wordLogo: '/projects/vipixi-word.png'
 	}
-	// Add more projects above — copy the object and change slug, title, etc.
 ];
 
 export function getProjectBySlug(slug: string): Project | undefined {

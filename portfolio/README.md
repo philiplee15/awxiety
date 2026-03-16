@@ -26,13 +26,13 @@ Open [http://localhost:5173](http://localhost:5173).
 
 ```ts
 {
-  slug: 'my-project',           // URL: /projects/my-project
+  slug: 'my-project',
   title: 'My Project',
-  description: 'Short description for the card.',
-  context: 'Longer context shown on the project profile page.',
+  description: 'Short description for the project page.',
   url: 'https://myproject.com',
   tech: ['Svelte', 'TypeScript'],
-  year: '2024'
+  icon: '/projects/my-project-icon.png',      // optional: card icon on home
+  wordLogo: '/projects/my-project-word.png'   // optional: full logo on project page
 }
 ```
 

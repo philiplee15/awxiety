@@ -126,6 +126,9 @@ body {
 	z-index: 1;
 	min-height: 100vh;
 }
+main {
+	padding: 0 0 9em;
+}
 
 /* ===== Nav ===== */
 .nav {
@@ -149,8 +152,8 @@ body {
 }
 
 .nav-logo {
-	height: 32px;
-	width: 32px;
+	height: 75px;
+	width: auto;
 	object-fit: contain;
 }
 
@@ -215,7 +218,7 @@ body {
 	gap: 4rem;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 4rem 2rem;
+	padding: 0rem 2rem;
 }
 
 .hero-content {
@@ -308,7 +311,11 @@ body {
 }
 
 .project-card {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 0.75rem;
 	text-decoration: none;
 	color: inherit;
 	background: var(--bg-elevated);
@@ -324,32 +331,17 @@ body {
 	transform: translateY(-2px);
 }
 
+.project-card-icon {
+	width: 64px;
+	height: 64px;
+	object-fit: contain;
+}
+
 .project-card h3 {
 	font-size: 1.125rem;
 	font-weight: 600;
-	margin: 0 0 0.5rem;
+	margin: 0;
 	color: var(--text);
-}
-
-.project-card .desc {
-	font-size: 0.9rem;
-	color: var(--text-muted);
-	margin: 0 0 1rem;
-	line-height: 1.5;
-}
-
-.project-card .tech-row {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.5rem;
-}
-
-.project-card .tech-row span {
-	font-size: 0.75rem;
-	color: var(--accent);
-	background: var(--accent-dim);
-	padding: 0.25rem 0.5rem;
-	border-radius: 6px;
 }
 
 /* ===== Project Detail Page ===== */
@@ -365,12 +357,36 @@ body {
 	margin: 0 0 0.5rem;
 }
 
-.project-detail .meta {
-	color: var(--text-muted);
-	font-size: 0.9rem;
+.project-word-logo {
+	max-width: 200px;
+	height: auto;
+	margin-bottom: 1rem;
+	object-fit: contain;
+}
+
+.project-detail .tech-pills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
 	margin-bottom: 2rem;
 }
 
+.project-detail .tech-pill {
+	font-size: 0.8rem;
+	padding: 0.35rem 0.75rem;
+	background: var(--accent-dim);
+	color: var(--accent);
+	border-radius: 8px;
+	border: 1px solid transparent;
+	transition: all 0.2s ease;
+}
+
+.project-detail .tech-pill:hover {
+	box-shadow: 0 0 15px var(--accent-dim);
+	border-color: var(--accent);
+}
+
+.project-detail .description,
 .project-detail .context {
 	font-size: 1rem;
 	line-height: 1.7;
@@ -398,8 +414,7 @@ body {
 
 /* ===== Resume (Disabled) ===== */
 .resume-section {
-	opacity: 0.5;
-	pointer-events: none;
+	opacity: 0.85;
 }
 
 .resume-section .section-title {
@@ -414,6 +429,24 @@ body {
 	text-align: center;
 	color: var(--text-muted);
 	font-size: 0.9rem;
+}
+
+.resume-placeholder p {
+	margin: 0 0 0.5rem;
+}
+
+.resume-placeholder p:last-child {
+	margin-bottom: 0;
+}
+
+.resume-placeholder a {
+	color: var(--accent);
+	text-decoration: none;
+	transition: color 0.2s, text-shadow 0.2s;
+}
+
+.resume-placeholder a:hover {
+	text-shadow: 0 0 15px var(--glow);
 }
 
 /* ===== Back Link ===== */

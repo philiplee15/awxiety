@@ -60,3 +60,32 @@ src/
 npm run build
 npm run preview
 ```
+
+## Deploy to Vercel
+
+The project is configured for Vercel with `@sveltejs/adapter-vercel`.
+
+### Option A: Deploy from GitHub (recommended)
+
+1. **Push your code** to GitHub (if not already).
+2. Go to [vercel.com](https://vercel.com) → **Add New** → **Project**.
+3. **Import** your `awxiety` repository.
+4. **Set Root Directory**: Since the portfolio lives in a subfolder, click **Edit** next to "Root Directory" and enter `portfolio`.
+5. **Build settings** (Vercel usually auto-detects):
+   - Framework Preset: SvelteKit
+   - Build Command: `npm run build`
+   - Output Directory: (leave default)
+6. Click **Deploy**.
+
+### Option B: Deploy with Vercel CLI
+
+```bash
+cd portfolio
+npx vercel
+```
+
+Follow the prompts. Use `portfolio` as the root when asked if you're in a monorepo.
+
+### Custom domain
+
+After deployment, go to **Project Settings** → **Domains** to add a custom domain.

@@ -17,7 +17,7 @@
 				I love to ideate, build, and execute. My specialty lies in taking ideas from prototype to production. Let's bring new ideas and visions to life together.
 			</p>
 			<p class="bio">In the tech industry since 2017.</p>
-			<small>Awxiety is my personal brand and a portmanteau of "awkward" and "society". It represents my historically introverted and awkward nature that I have successfully grown from a weakness into a strength. And despite being intuitively an opposing force for this endeavor, I want to use them to build a strong community through passion and technology that lead towards a more inclusive society as a whole.</small>
+			<small>Awxiety is my personal brand and a portmanteau of "awkward" and "society". It represents my historically introverted and awkward neurodiverse nature and tendencies, that I have successfully grown from a weakness into a strength. And despite being intuitively an opposing force for this endeavor, I want to use them to build a strong community through passion and technology that lead towards a more inclusive society as a whole.</small>
 		</div>
 		<div class="tech">
 			<span class="tech-tag">TypeScript | Javascript | Python</span>

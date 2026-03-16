@@ -14,10 +14,10 @@
 			</p>
 			<p class="bio">
 				I'm an advocate of empathy-driven development. I've worked with many frameworks and pick up new ones quickly.
-				I love to build, ideate, and execute. Let's bring new ideas and visions to life together.
+				I love to ideate, build, and execute. My specialty lies in taking ideas from prototype to production. Let's bring new ideas and visions to life together.
 			</p>
 			<p class="bio">In the tech industry since 2017.</p>
-			<small>Awxiety is my personal brand and a portmanteau of awkward society. It represents my historically introverted and awkward nature that I have personally & successfully strove to grow from a weakness into a strength. And despite being contradictory, and opposing forces, I want to use my strengths to build a strong community through passions and technology that lead towards a more inclusive society and humanity as a whole.</small>
+			<small>Awxiety is my personal brand and a portmanteau of "awkward" and "society". It represents my historically introverted and awkward nature that I have successfully grown from a weakness into a strength. And despite being seemingly opposing forces, I want to use them to build a strong community through passion and technology that lead towards a more inclusive society as a whole.</small>
 		</div>
 		<div class="tech">
 			<span class="tech-tag">TypeScript | Javascript | Python</span>
